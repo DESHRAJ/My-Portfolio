@@ -1,5 +1,5 @@
 # Django settings for myportfolio project.
-
+import os 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
