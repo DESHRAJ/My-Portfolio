@@ -8,3 +8,6 @@ from django.conf import settings
 
 def home(request):
 	return render_to_response("index.html")
+
+def function(request):
+	return render_to_response("index1.html")
