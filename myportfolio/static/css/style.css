@@ -109,10 +109,12 @@ blockquote .author {
 
 /* STEP SPECIFIC STYLES */
 #title {width: 1240px; height: 600px; text-align: left; }
+#title2 {width: 1240px; height: 600px; text-align: left; }
+
 #title-text1 { font-size: 102px; }
 #title-text2 { font-size: 153px; }
 #title-text3 { font-size: 141px; }
-
+#title-text4 { font-size: 46px; text-align: center;}
 #respond-text1 { font-size: 84px; }
 #respond-text2 { font-size: 202px; }
 #respond-text3 { font-size: 77px; }
