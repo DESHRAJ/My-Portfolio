@@ -8,7 +8,7 @@ from django.conf.urls.static import static
 
 urlpatterns = patterns('',
     url(r'^$', 'myportfolio.views.home', name='home'),
-    # url(r'a', 'myportfolio.views.function', name='function'),
+    url(r'a', 'myportfolio.views.function', name='function'),
 
     # url(r'^myportfolio/', include('myportfolio.foo.urls')),
 
