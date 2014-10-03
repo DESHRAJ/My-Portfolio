@@ -1,13 +1,14 @@
 from django.conf.urls import patterns, include, url
+from django.conf.urls.static import static
+
 
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-    # Examples:
     url(r'^$', 'myportfolio.views.home', name='home'),
-    url(r'a', 'myportfolio.views.function', name='function'),
+    # url(r'a', 'myportfolio.views.function', name='function'),
 
     # url(r'^myportfolio/', include('myportfolio.foo.urls')),
 
